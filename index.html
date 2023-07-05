@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Navigation Menu Bar</title>
+    <!-- LINK CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons CSS -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
 <body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo"><a href="#">SURVASIA</a></span>
 
-<h1>SURVASIA</h1>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">SURVASIA</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">SURVEYER</a></li>
+                    <li><a href="#">TESTER</a></li>
+                    <li><a href="#">REWARDS</a></li>
+                    <li><a href="#">HOW IT WORKS</a></li>
+                    <li><a href="#">PARTNER CONTACT</a></li>
+                    <li><a href="#">WHY SURVASIA ?</a></li>
+                </ul>
+            </div>
 
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun' ></i>
+                </div>
+
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search'></i>
+                    </div>
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
-
