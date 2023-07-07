@@ -1,12 +1,14 @@
 /* ========Google Font Import - Poppins =======*/
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* ========== Colours ==========*/
@@ -78,6 +80,16 @@ nav .nav-bar .logo a{
 
 }
 
+nav .nav-bar .logo-image{
+    max-width: 8%;
+    height: auto;
+}
+
+nav .nav-bar .menu .logo-toggle .logo-image-toggle{
+    max-width: 35%;
+    height: auto;
+}
+
 .nav-links li a::before{
     content: "";
     position: absolute;
@@ -110,7 +122,7 @@ nav .nav-bar .logo a{
 .nav-links li a{
     position:relative;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--text-color);
     text-decoration:none;
     padding: 10px;
@@ -242,6 +254,11 @@ body.dark .search-field i{
         display:block;
     }
     
+    nav .nav-bar .logo-image{
+        display:none;
+    }
+
+
     .menu{
         position:fixed;
         height:100%;
